@@ -1,0 +1,20 @@
+Vetores (arrays) em java
+
+em java vetores são objetos e precisam ser instanciados: utilizando a chave "new"
+
+int n[] = new int[4]; -> cria vetor vazio
+
+int n[] ={3, 2, 8, 7, 4}; -> cria vetor preenchido
+
+atributos
+
+vetor.length -> system.out.println(n.length); -> imprime o tamanho do vetor
+
+laço: 
+for(int i = 0; i<n.length ;i++){
+    system.out.println(n[i]);
+}
+
+vetor de string
+
+string mes[] = ("janeiro", "Fevereiro", ... ,"Dezembro")
