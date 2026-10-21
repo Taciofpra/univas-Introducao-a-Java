@@ -17,4 +17,4 @@ for(int i = 0; i<n.length ;i++){
 
 vetor de string
 
-string mes[] = ("janeiro", "Fevereiro", ... ,"Dezembro")
+string mes[] = {"janeiro", "Fevereiro", ... ,"Dezembro"}
