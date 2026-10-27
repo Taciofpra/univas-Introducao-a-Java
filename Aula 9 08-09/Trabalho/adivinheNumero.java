@@ -1,4 +1,4 @@
-/* Refatore o "Jogo da Adivinhação"
+package Trabalho;/* Refatore o "Jogo da Adivinhação"
 (exercício já fornecido nos slides ) para que o usuário tenha um número limitado de
 tentativas (por exemplo, 5). O loop deve terminar quando o usuário acertar ou as
 tentativas acabarem. Se as tentativas acabarem, exiba o número secreto. */
