@@ -1,0 +1,54 @@
+Vetores e métodos.
+
+1: for each
+    Percorrer todos os elementos do vetor 
+    não precisa do indice
+
+    sintaxe:
+        for(tipo nomeTemporaria : nomeDoVetor){}
+        for(int temp : nomeDoVetor){}
+
+    ex:
+        int numeros[] = {10, 20, 30, 40};
+
+        for(int valor: numeros){
+            System.out.println(valor);
+        }
+
+    foreach: Apenas ler valores do inicio ao fim
+
+    for classico: ler o indice modificar valor no vetor, percorrer em outra ordem ou incremento
+
+    classe: java.util.arrays
+    import java.util.arrays
+
+2: Arrays.sort()
+    Ordena vetor em ordem crescente; numerica ou alfabetica para strings
+
+    sintaxe:
+        Arrays.sort(nomeDoVetor);
+
+    ex:
+        int numeros[] = {5, 2, 8, 1, 4};
+
+        Arrays.sort(numeros)
+    
+3: Arrays.binarySearch()
+
+    busca de valores
+    int indice = Arrays.binarySearch(nomeDoVetor, valorProcurado); //retorna o indice ou -1 para valor não localizado
+
+    ex:
+        int numeros[] = {5, 2, 8, 1, 4};
+        Arrays.sort(numeros)//Busca binaria requer sort
+        int busca = Arrays.binarySearch(numeros, 5);
+
+4: Arrays.fill()
+    preenche todas as posições com um valor especifico
+    Arrays.fill(nomeDoVetor, valorAPreencher)
+
+    ex: 
+        int numeros[] = new int[5]
+
+        Arrays.fill(numeros, 0);
+
