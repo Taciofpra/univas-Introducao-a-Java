@@ -1,0 +1,14 @@
+Cruzamento de dados com Vetor
+
+logica: para cada, todos
+    "para cada item do vetor A"
+    "eu preciso comparar com todos os itens do vetor B"
+
+solução: laços alinhados, for dentro de for
+
+for(i=0;i<tam;i++){
+    for(j=0;j<tam;j++){
+
+    }
+}
+
