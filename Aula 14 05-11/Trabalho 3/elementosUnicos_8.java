@@ -20,7 +20,7 @@ public class elementosUnicos_8{
             for(j=0;j<vetorB.length;j++){
                 if(vetorA[i] == vetorB[j]){
                     achou = true;
-                    break;
+                    j=vetorB.length;
                 }
             }
             if(!achou){

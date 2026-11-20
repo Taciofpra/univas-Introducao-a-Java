@@ -24,7 +24,7 @@ public class verificaDuplicidade_7{
                     for(k=0;k<repetidos.length;k++){
                         if(repetidos[k] == numeros[j]){
                             achou = true;
-                            break;
+                            k=repetidos.length;
                         }
                     }
                     if(!achou){
