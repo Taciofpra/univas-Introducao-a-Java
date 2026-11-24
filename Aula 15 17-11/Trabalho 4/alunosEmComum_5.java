@@ -16,7 +16,7 @@ public class alunosEmComum_5{
         for(i=0;i<matriculadosMusica.length;i++){
             for(j=0;j<matriculadosEsporte.length;j++){
                 if(matriculadosMusica[i].equals(matriculadosEsporte[j])){
-                    System.out.print(matriculadosMusica[i]+" ");
+                    System.out.print(matriculadosMusica[i]+", ");
                 }
             }
         }

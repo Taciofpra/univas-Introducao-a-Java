@@ -17,7 +17,7 @@ public class analiseDeOrcamento_6{
         for(i=0;i<orcamentos.length;i++){
             for(j=0;j<custosProjetos.length;j++){
                 if(custosProjetos[j]<orcamentos[i]){
-                    System.out.print("\"Custo de "+custosProjetos[j]+" cabe no orçamento de "+orcamentos[i]+"\", ");
+                    System.out.println("\"Custo de "+custosProjetos[j]+" cabe no orçamento de "+orcamentos[i]+"\", ");
                 }
             }
         }

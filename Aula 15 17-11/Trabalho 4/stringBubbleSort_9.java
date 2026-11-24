@@ -10,8 +10,24 @@ alfabeticamente e eles precisam ser trocados (usando uma String
 aux).
 • No final, imprima o vetor ordenado (pode usar Arrays.toString()). */
 
-public class bubbleSortString {
+import java.util.Arrays;
+
+public  class stringBubbleSort_9{
     public static void main(String[] args) {
-        
+        String[] nomes = {"Carla", "Ana", "Zeca", "Beto", "Maria"};
+        String aux_substituicao;
+        int i, j;
+
+        for(i=0;i<nomes.length;i++){
+            for(j=i+1;j<nomes.length;j++){
+                if(nomes[i].compareTo(nomes[j]) > 0){
+                    aux_substituicao = nomes[j];
+                    nomes[j] = nomes[i];
+                    nomes[i] = aux_substituicao;
+                }
+            }
+        }
+
+        System.out.print(Arrays.toString(nomes));
     }
 }

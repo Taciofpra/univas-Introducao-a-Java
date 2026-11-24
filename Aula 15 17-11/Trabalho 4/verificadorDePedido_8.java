@@ -12,6 +12,22 @@ public class verificadorDePedido_8{
     public static void main(String[] args){
         int[] estoque = {10, 20, 30, 40, 50};
         int[] pedido = {20, 40, 10};
-        
+        int i, j;
+        int itensLocalizados = 0;
+
+        for(i=0;i<pedido.length;i++){
+            for(j=0;j<estoque.length;j++){
+                if(pedido[i] == estoque[j]){
+                    itensLocalizados++;
+                    j = estoque.length; //parar o for j
+                }
+            }
+        }
+
+        if(itensLocalizados == pedido.length){
+            System.out.println("Pedido pode ser atendido");
+        }else{
+            System.out.println("Pedido não pode ser atendido");
+        }
     }
 }
